@@ -72,3 +72,10 @@ AskRAG.ai is a scalable and efficient Retrieval-Augmented Generation (RAG) quest
 ### 4. Error Handling and Logging
 - Proper error handling ensures that the application gracefully handles unexpected issues.
 - Logging is implemented to track application behavior, making it easier to debug and monitor.
+
+![Home Page](/Home.png)
+![Ingest Document](/Ingest.png)
+![Document Selection & QA](/QA.png)
+
+
+

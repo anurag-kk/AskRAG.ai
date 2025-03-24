@@ -1,6 +1,6 @@
 # AskRAG.ai
 
-Check out the website --> [AskRAG.ai](your_website_link_here) <--
+Check out the website --> [AskRAG.ai](https://ask-rag-ai.vercel.app/) <--
 
 # AskRAG.ai - Retrieval-Augmented Generation (RAG) Question-Answering Application
 

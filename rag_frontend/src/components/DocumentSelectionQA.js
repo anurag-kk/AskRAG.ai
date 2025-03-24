@@ -16,7 +16,7 @@ function DocumentSelectionQA() {
   // Fetch documents from the backend
   const fetchDocuments = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:8000/documents/");
+      const response = await axios.get("https://askrag-ai.onrender.com/documents/");
       setDocuments(response.data);
     } catch (error) {
       console.error("Error fetching documents:", error);
@@ -52,10 +52,10 @@ function DocumentSelectionQA() {
 
     try {
       // Select documents first
-      await axios.post("http://127.0.0.1:8000/select-documents/", selectedDocs);
+      await axios.post("https://askrag-ai.onrender.com/select-documents/", selectedDocs);
 
       // Ask the question
-      const response = await axios.post("http://127.0.0.1:8000/qa/", {
+      const response = await axios.post("https://askrag-ai.onrender.com/qa/", {
         question,
       });
       setAnswer(response.data.answer);

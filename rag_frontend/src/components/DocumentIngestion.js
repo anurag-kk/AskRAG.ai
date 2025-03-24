@@ -17,7 +17,7 @@ function DocumentIngestion() {
   
     try {
       console.log(formData)
-      const response = await axios.post("http://127.0.0.1:8000/ingest/", formData, {
+      const response = await axios.post("https://askrag-ai.onrender.com/ingest/", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

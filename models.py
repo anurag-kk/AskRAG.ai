@@ -1,14 +1,13 @@
 from sqlalchemy import create_engine, Column, Integer, String, Text, LargeBinary, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
+from database import engine
 import os
 
 # Create the base class for SQLAlchemy models
 Base = declarative_base()
 
 # Database URL (replace with your actual credentials)
-DATABASE_URL = os.get_env('DATABASE_URL')
-engine = create_engine(DATABASE_URL)
 
 # Document model
 class Document(Base):

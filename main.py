@@ -13,8 +13,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["https://ask-rag-ai.vercel.app"],  # Allow requests from the frontend
-    allow_credentials=True,
-    allow_methods=["*"],  # Allow all HTTP methods
+    allow_methods=["GET", "POST", "OPTIONS"],  # Allow all HTTP methods
     allow_headers=["*"],  # Allow all headers
 )
 

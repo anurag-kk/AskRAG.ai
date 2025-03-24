@@ -1,5 +1,7 @@
 # AskRAG.ai
 
+Check out the website --> [AskRAG.ai](your_website_link_here) <--
+
 # AskRAG.ai - Retrieval-Augmented Generation (RAG) Question-Answering Application
 
 AskRAG.ai is a scalable and efficient Retrieval-Augmented Generation (RAG) question-answering application. It combines the power of **retrieval-based** and **generative** models to provide accurate and contextually relevant answers to user queries. This application is designed with scalability, efficiency, and proper error handling in mind.

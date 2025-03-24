@@ -6,3 +6,8 @@ transformers
 torch
 langchain
 faiss-cpu
+python-multipart
+sentence-transformers
+PyMySQL
+mysql-connector-python
+langchain-community
